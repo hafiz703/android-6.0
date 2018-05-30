@@ -1,4 +1,4 @@
- 
+ /**
 properties([
   parameters([
     string(defaultValue: '1.0', description: 'Current version number', name: 'VERSION'),
@@ -10,7 +10,7 @@ properties([
     booleanParam(defaultValue: false, description: 'Select if you want to build TV version.', name: 'BUILD_TV'),
   ])
 ])
- 
+ */
 
 node {
   timestamps {
